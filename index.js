@@ -19,4 +19,14 @@ revealX()
 //what matters is the context of everything surrounding the variable. Execution context.
 //now that only the global variable exists the execution context has changed to global,
 //even though the variable is below the function, the interpreter makes 2 passes and the variable already exists in memory
+//2 types of scope global-accessible anywhere in script, local-accessible in functions only
 
+    function revealY(){
+        a = 2
+      }
+     revealY()
+      console.log(a,"this is a");
+      //this actually tricked me and i thought that a would be considered not defined
+      //this is a question i found online and  it says since a doesnt have 'let','var' or 'const'. since 
+      //it's not declared the compiler gives it a global scope
+      
