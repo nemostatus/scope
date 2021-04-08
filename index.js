@@ -1,11 +1,14 @@
 let revealed = document.getElementById("reveal")
+console.log(revealed)
 function revealX(){
     let x = 5
     if(x>3){
  console.log("x is more than 3")
+ revealed.innerHTML = "x is more than 3"
     }
     else{
         console.log("x is less than 3")
+        revealed.innerHTML = "x is less than 3"
     }
 }
 let x = 1
