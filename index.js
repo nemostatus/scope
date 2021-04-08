@@ -29,4 +29,9 @@ revealX()
       //this actually tricked me and i thought that a would be considered not defined
       //this is a question i found online and  it says since a doesnt have 'let','var' or 'const'. since 
       //it's not declared the compiler gives it a global scope
+
+      // References. In JavaScript, there are two kinds of variables types: primitives variables (strings, numbers, and booleans) and References variables (arrays and objects). Primitives variables save in memory in their values, and references save in memory as virtual id.
+      //this is something I was also confused about when taking a js skill test. Objects have unique ids so one object is never the same as another 
+
       
+
